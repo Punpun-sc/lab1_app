@@ -355,6 +355,14 @@ header {
     margin: 25px;
 }
 
+.contentProfile img{
+    max-width: 25%;
+    height: 25%;
+    margin: 25px;
+    border: 5px solid #a874d2;
+    border-radius: 60px;
+}
+
 .contentwish{
     display: flex;
     border-radius: 50px;
@@ -363,4 +371,24 @@ header {
     height: 25vh;
     margin: 25px;
 }
+
+.contentProfile h7{
+    position: relative;
+    top: 13%;
+    color: #a874d2;
+    font-weight: bold;
+    font-size: 2em;
+
+}
+
+.textSamen{
+    display: block;
+}
+
+.contentProfile p{
+    position: relative;
+    color:#a874d2;
+    top: 45px;
+}
+
 
