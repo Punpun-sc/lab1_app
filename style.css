@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background-color: #A874D2;
+}
+
+.head {
+    display: flex;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-top: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.hamburger {
+    position: absolute;
+    right: 0;
+    padding-right: 25px;
+    width: 32px;
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.hamburger span {
+    height: 4px;
+    width: 100%;
+    background-color: white;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
