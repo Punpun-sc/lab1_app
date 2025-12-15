@@ -345,3 +345,22 @@ header {
 .bottom-nav a.active {
     opacity: 1;
 }
+
+.contentProfile{
+    display: flex;
+    border-radius: 50px;
+    background-color: white;
+    max-width: 100%;
+    height: 40vh;
+    margin: 25px;
+}
+
+.contentwish{
+    display: flex;
+    border-radius: 50px;
+    background-color: white;
+    max-width: 100%;
+    height: 25vh;
+    margin: 25px;
+}
+
