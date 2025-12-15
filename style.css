@@ -219,17 +219,10 @@ body {
 }
 
 header {
+    position: relative;
+    z-index: 10;
     background: var(--purple);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-}
-
-.head {
-    width: min(420px, 100%);
-    margin: 0 auto;
-    padding: 18px 18px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .logo {
