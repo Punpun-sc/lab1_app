@@ -97,7 +97,10 @@ h2 {
 .what {
     display: flex;
     position: relative;
+    min-height: 450px;
+    margin-top: 125px;
 }
+
 
 .what p {
     position: absolute;
@@ -109,18 +112,44 @@ h2 {
     width: 60%;
 }
 
-.what img{
+.what img {
     max-width: 70%;
     top: 60%;
     position: absolute;
     top: 170px;
 }
 
-h3 {
+.what h3 {
     position: absolute;
+    right: 0;
+    margin-top: 50px;
+    padding-right: 25px;
+    color: white;
+    font-size: 3em;
+}
+
+.contact{
+    position: relative;
+}
+
+.contact h4 {
     color: white;
     font-size: 3em;
     margin-top: 50px;
+    padding-left: 25px;
+    margin-bottom: 0;
+}
+
+.contact p {
+    position: absolute;
+    padding-left: 25px;
+    color: white;
+    font-size: 2em;
+    width: 60%;
+    max-width: 100%;
+}
+
+.contact img{
     right: 0;
-    padding-right: 25px;
+    top: 200px;
 }
