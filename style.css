@@ -13,12 +13,12 @@ body {
 }
 
 .hamburger {
+    font-size: 2em;
+    color: white;
     padding: 8px;
     position: absolute;
     right: 0;
     margin-right: 25px;
-    width: 32px;
-    height: 24px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
