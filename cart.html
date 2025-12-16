@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merchapp Mindletics</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Atkinson Hyperlegible' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <img src="./assets/logo.svg" alt="mindletics logo">
+            <a href="cart.html" class="hamburger">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+
+        </div>
+    </header>
+
+    <main class="cart-page">
+        <h1 class="title">Jouw winkelwagen</h1>
+        <p class="subtitel">Bekijk jouw items en bestel ze</p>
+
+        <div class="items">
+            <div class="item">
+                <div class="cartItemLeft">
+                    <img class="itemImg" src="./assets/notietieboekje.png" alt="mindletics notitieboek">
+                </div>
+
+                <div class="itemInfo">
+                    <h2 class="itemName">Notitieboekje</h2>
+                    <p class="itemAmount">Aantal: <span>1</span></p>
+                    <p class="itemPrice">10,00</p>
+                </div>
+
+                <div class="itemActions">
+                    <div class="amount">
+                        <button class="amountBtn" type="button" aria-label="min">-</button>
+                        <span class="amountNumber">1</span>
+                        <button class="amountBtn" type="button" aria-label="plus">+</button>
+                    </div>
+
+                    <button class="trashBtn" type="button" aria-label="verwijder">
+                        <i class="fa-solid fa-trash"></i>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="cart-total">
+            <span class="cart-total-label">Totaal:</span>
+            <span class="cart-total-price">€ 10,00</span>
+        </div>
+
+        <div class="cart-checkout">
+            <a href="#" class="checkout-btn">Ga naar afrekenen <i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+
+
+    </main>
+
+    <nav class="bottom-nav">
+        <a href="./index.html">Home</a>
+        <a href="./merch.html">Shop</a>
+        <a href="./profile.html">Profiel</a>
+    </nav>
+
+</body>
+
+</html>
